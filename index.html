@@ -5,25 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Father-and-Son</title>
+        <link href="https://fonts.googleapis.com/css?family=Amethysta" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#our-barbers">OUR BURBERS</a>
+                <ul style="list-style: none">
+                    <li style="text-decoration: none;">
+                        <a class="our-barbers" href="#our-barbers">OUR BURBERS</a>
                     </li>
                     <li>
-                        <a href="#services&prices">SERVICES &PRICES</a>
+                        <a class="services-prices" href="#services&prices">SERVICES &PRICES</a>
                     </li>
                     <li>
-                        <a href="#get-a-seat">GET A SEAT</a>
+                        <a class="get-a-seat" href="#get-a-seat">GET A SEAT</a>
                     </li>
                     <li>
-                        <a href="#our-friends">OUR FRIENDS</a>
+                        <a class="our-friends" href="#our-friends">OUR FRIENDS</a>
                     </li>
                     <li>
-                        <a href="#contact">CONTACT US</a>
+                        <a class="contact" href="#contact">CONTACT US</a>
                     </li>
                 </ul>
             </nav>
@@ -43,7 +47,7 @@
                     <img src="img/moustache.png" width="81" height="40" alt="moustache">
                 </div>
                 <h2>OUR BARBERS</h2>
-                <p>MIKE</p>
+                <p class="name-of-barbers">MIKE</p>
                 <p>Senior barber</p>
                 <div>
                     <img src="img/barber-pole2.jpg" width="160" height="121" alt="barberpole">
@@ -54,7 +58,7 @@
                 <div>
                     <img src="img/barber-pole2.jpg" width="160" height="121" alt="barberpole">
                 </div>
-                <p>TOMMY</p>
+                <p class="name-of-barbers">TOMMY</p>
                 <p>Barber</p>
                 <div>
                     <img src="img/barber-pole2.jpg" width="160" height="121" alt="barberpole">
@@ -65,7 +69,7 @@
                 <div>
                     <img src="img/barber-pole2.jpg" width="160" height="121" alt="barberpole">
                 </div>
-                <p>JOHNNY</p>
+                <p class="name-of-barbers">JOHNNY</p>
                 <p>Barber</p>
                 <div>
                     <img src="img/barber-pole2.jpg" width="160" height="121" alt="barberpole">
@@ -85,27 +89,29 @@
                 <div>
                     <img src="img/square.png" width="198" height="176" alt="square">
                 </div>
-                <ul>
-                    <li>CUT | 25$</li>
-                    <li>FATHER &SON | 30$</li>
-                    <li>ONE LENGHT | 14$</li>
-                </ul>
-                <div>
-                    <img src="img/square.png" width="198" height="176" alt="square">
+                <div class="services">
+                    <ul style="list-style: none;">
+                        <li>CUT | 25$</li>
+                        <li>FATHER &SON | 30$</li>
+                        <li>ONE LENGHT | 14$</li>
+                    </ul>
+                    <div>
+                        <img src="img/square.png" width="198" height="176" alt="square">
+                    </div>
+                    <ul style="list-style: none;">
+                        <li>CUT &BEARD | 30$</li>
+                        <li>BEARD &LINES | 15$</li>
+                        <li>CUT &SHAVE | 30$</li>
+                    </ul>
+                    <div>
+                        <img src="img/square.png" width="198" height="176" alt="square">
+                    </div>
+                    <ul style="list-style: none;">
+                        <li>WET SHAVE | 10$</li>
+                        <li>FULL SHAVE | 15$</li>
+                        <li>STULING | 10$</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>CUT &BEARD | 30$</li>
-                    <li>BEARD &LINES | 15$</li>
-                    <li>CUT &SHAVE | 30$</li>
-                </ul>
-                <div>
-                    <img src="img/square.png" width="198" height="176" alt="square">
-                </div>
-                <ul>
-                    <li>WET SHAVE | 10$</li>
-                    <li>FULL SHAVE | 15$</li>
-                    <li>STULING | 10$</li>
-                </ul>
             </section>
             <section id="get-a-seat">
                 <div>
@@ -148,12 +154,12 @@
                             <option>6 p.m</option>
                             <option>7 p.m</option>
                         </optgroup>
-                        </select>
-                        <input type="text" placeholder="NAME" required>
-                        <input type="text" placeholder="EMAIL" required>
-                        <input type="text" placeholder="PHONE" required>
-                        <input type="submit" value="SEND">
-                        </form>
+                    </select>
+                    <input type="text" placeholder="NAME" required>
+                    <input type="text" placeholder="EMAIL" required>
+                    <input type="text" placeholder="PHONE" required>
+                    <input type="submit" value="SEND">
+                </form>
             </section>
             <section id="our-friends">
                 <div>
@@ -176,19 +182,26 @@
                 </div>
                 <h2>CONTACT US</h2>
                 <br>
-                <p>
+                <p class="adress">
                     5806 North Broadway 4, <br>Chicago, IL 60660, USA
+                
                 </p>
-                <p>Everyday: 9AM-7PM</p>
-                <a href="tel:+775-578-8759">+775-578-8759</a>
+                <p class="time">Everyday: 9AM-7PM</p>
+                <a class="phone" href="tel:+775-578-8759">+775-578-8759</a>
                 <div>
-                    <img src="img/instagram.png" width="40" height="40" alt="instagram">
+                    <a href="www.instagram.com">
+                        <img src="img/instagram.png" width="40" height="40" alt="instagram">
+                    </a>
                 </div>
                 <div>
-                    <img src="img/youtube.png" width="55" height="38" alt="youtube">
+                    <a href="facebook.com">
+                        <img src="img/youtube.png" width="55" height="38" alt="youtube">
+                    </a>
                 </div>
                 <div>
-                    <img src="img/facebook.png" width="65" height="65" alt="facebook">
+                    <a href="youtube.com">
+                        <img src="img/facebook.png" width="65" height="65" alt="facebook">
+                    </a>
                 </div>
                 <div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.6066190033885!2d-87.66256374934333!3d41.987255066453855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd19d041bdba9%3A0x53e529f97ed386b7!2sFather+%26+Son+Barber+Shop!5e0!3m2!1suk!2sua!4v1540076819101" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -196,11 +209,11 @@
             </section>
             <footer>
                 <div>
-                    <img src="img/barber-pole2.jpg" width="70" height="120" alt="pole">
+                    <img src="img/barber-pole.jpg" width="40" height="47" alt="pole">
                 </div>
-                <p>© FATHER &SON BarberShop  2004 - 2018</p>
+                <p class="footer">© FATHER &SON BarberShop  2004 - 2018</p>
                 <div>
-                    <img src="img/barber-pole2.jpg" width="70" height="120" alt="pole">
+                    <img src="img/barber-pole.jpg" width="40" height="47" alt="pole">
                 </div>
             </footer>
         </main>

@@ -58,7 +58,11 @@ h2 {
 input {
     text-align: center;
 }
-
+.send {
+    background: black;
+    color:white;
+    font-size: 13px;
+}
 .adress {
     font-family: 'David+Libre', serif;
     font-size: 25px;

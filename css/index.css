@@ -1,86 +1,282 @@
-.our-barbers {
-    font-family: 'Amethysta', serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none
+body {
+    margin: 0;
 }
 
-.services-prices {
-    font-family: 'Amethysta', serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none
+header .nav-menu {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
 }
 
-.get-a-seat {
-    font-family: 'Amethysta', serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
+header .nav-menu li {
+    display: inline;
 }
 
-.our-friends {
-    font-family: 'Amethysta', serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none
-}
-
-.contact {
-    font-family: 'Amethysta', serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none
-}
-
-h2 {
-    font-size: 23;
+header .nav-menu li a {
     text-decoration: none;
-    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Amethysta', sans-serif;
 }
 
-.name-of-barbers {
-    font-family: 'Abril+Fatface', serif;
-    font-size: 20px;
-    font-weight: bold;
+header .nav-menu li a:hover {
     text-decoration: underline;
 }
 
-.services {
-    font-size: 20px;
-    color: black;
-}
-
-input {
+header .logo {
+    font-family: 'Bungee Inline', cursive;
     text-align: center;
-}
-.send {
-    background: black;
-    color:white;
-    font-size: 13px;
-}
-.adress {
-    font-family: 'David+Libre', serif;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 50px;
+    display: block;
+    padding-top: 50px;
 }
 
-.time {
+main .scissors {
+    width: 400px;
+    height: 100px;
+}
+
+main .scissors-holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+main .barber {
+    width: 100%;
+}
+
+main .barber {
+    display: block;
+}
+
+main .moustache {
+    width: 400px;
+    height: 100px;
+}
+
+.moustache-holder {
+    display: flex;
+    justify-content: center;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Abril+Fatface', sans-serif;
+    display: block;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+main .name-of-barbers {
+    text-align: center;
+    font-family: 'Abril+Fatface', sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 2px;
 }
 
-.phone {
-    font-size: 26px;
-    font-weight: bold;
-    color: black;
+main .position {
+    text-align: center;
+    font-family: 'Abril+Fatface', sans-serif;
+    font-size: 12px;
+    display: block;
+    margin: 5px auto;
 }
 
-.footer {
-    font-size: 15px;
-    font-weight: bold;
+main .mikebarber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .barber-pole1 {
+    width: 160px;
+    height: 121px;
+}
+
+main .barber-pole2 {
+    width: 160px;
+    height: 121px;
+}
+
+main .barber-pole3 {
+    width: 160px;
+    height: 121px;
+}
+
+main .mike {
+    width: 663px;
+    height: 663px;
+}
+
+main .tommy {
+    width: 668px;
+    height: 428px;
+}
+
+main .johnny {
+    width: 668px;
+    height: 428px;
+}
+
+main .razor {
+    width: 400px;
+    height: 100px;
+}
+
+main .razor-holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+main .services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    color: white;
+    background-color: black;
+}
+
+main .first-list li {
+    list-style: none;
+}
+
+main .second-list li {
+    list-style: none;
+}
+
+main .third-list li {
+    list-style: none;
+}
+
+@media (max-width: 720px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        padding: 20px 0;
+        font-size: 14px
+    }
+
+    header .logo {
+        display: block;
+        font-family: 'Bungee Inline', cursive;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .barber-pole1 {
+        display: none;
+    }
+
+    .barber-pole2 {
+        display: none;
+    }
+
+    .barber-pole3 {
+        display: none;
+    }
+
+    .razor-holder {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .scissors {
+        display: none;
+    }
+    main .scissors-holder {
+        display: none;
+    }
+
+    main .barber {
+        display: none;
+    }
+
+    main .moustache {
+        width: 200px;
+        height: 50px;
+    }
+    main .moustache-holder {
+        padding-top: 70px;
+    }
+
+    main .razor {
+        width: 200px;
+        height: 50px;
+    }
+
+    .services {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 320px) {
+  
+    header .logo {
+        font-family: 'Bungee Inline', cursive;
+        text-align: center;
+        font-size: 17px;
+        display: block;
+        padding-top: 25px;
+    }
+
+    main .scissors-holder {
+    display: none;
+    }
+    main .moustache {
+        
+        width: 150px;
+        height: 30px;
+    }
+
+    main .razor {
+        width: 150px;
+        height: 30px;
+    }
+
+    main .name-of-barbers {
+        font-size: 15px;
+    }
+
+    main .mike {
+        width: 320px;
+        height: 400px;
+    }
+
+    main .tommy {
+        width: 320px;
+        height: 270px;
+    }
+
+    main .johnny {
+        width: 320px;
+        height: 270px;
+    }
+
+    main h2 {
+        font-size: 13px;
+    }
+
+    .services {
+        font-size: 10px;
+        display: flex;
+        justify-content: space-a;
+        text-align: center;
+    }
 }

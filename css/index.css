@@ -212,7 +212,21 @@ main .third-list li {
     main .moustache-holder {
         padding-top: 70px;
     }
+    main .mike {
+        
+        width: 100%;
+        height: 500px;
+    }
 
+    main .tommy {
+        width: 100%;
+        height: 300px;
+    }
+
+    main .johnny {
+        width: 100%;
+        height: 300px;
+}
     main .razor {
         width: 200px;
         height: 50px;
@@ -226,7 +240,7 @@ main .third-list li {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     header .nav-menu li {
         padding: 15px 0;
         font-size: 10px
@@ -261,17 +275,17 @@ main .third-list li {
     }
 
     main .mike {
-        width: 320px;
+        width: 100%;
         height: 400px;
     }
 
     main .tommy {
-        width: 320px;
+        width: 100%;
         height: 270px;
     }
 
     main .johnny {
-        width: 320px;
+        width: 100%;
         height: 270px;
     }
 

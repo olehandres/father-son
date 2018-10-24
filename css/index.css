@@ -189,7 +189,7 @@ main .third-list li {
 
     .razor-holder {
         padding-top: 60px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
 }
 
@@ -227,7 +227,10 @@ main .third-list li {
 }
 
 @media (max-width: 320px) {
-  
+    header .nav-menu li {
+        padding: 15px 0;
+        font-size: 10px
+    }
     header .logo {
         font-family: 'Bungee Inline', cursive;
         text-align: center;
@@ -248,6 +251,9 @@ main .third-list li {
     main .razor {
         width: 150px;
         height: 30px;
+    }
+    main .servicesprices {
+        padding-bottom: 20px;
     }
 
     main .name-of-barbers {
@@ -273,10 +279,10 @@ main .third-list li {
         font-size: 13px;
     }
 
-    .services {
-        font-size: 10px;
+    main .services {
+        font-size: 6px;
         display: flex;
-        justify-content: space-a;
-        text-align: center;
+        justify-content: space-around;
+        align-items: center;
     }
 }

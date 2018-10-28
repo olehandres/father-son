@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </nav>
-            <h1 class="logo">• Father &Son | BarberShop •</h1>
+            <h1 class="logo">• Father & Son | BarberShop •</h1>
         </header>
         <main>
             <div class=scissors-holder>
@@ -95,10 +95,10 @@
             </section>
             <section id="get-a-seat">
                 <div class="comb-holder">
-                    <img src="img/comb.jpg" alt="comb">
+                    <img class="comb" src="img/comb.jpg" alt="comb">
                 </div>
                 <h2>• GET A SEAT •</h2>
-                <form method="POST" action="https://formspree.io/olehandres@icloud.com">
+                <form method="POST" class="form" action="https://formspree.io/olehandres@icloud.com">
                     <select class="select-barber" name="barber">
                         <optgroup label="Select a barber">
                             <option>MIKE</option>
@@ -106,6 +106,7 @@
                             <option>JOHNNY</option>
                         </optgroup>
                     </select>
+                    <br>
                     <select name="service">
                         <optgroup class="select-service" label="Select a service">
                             <option>CUT | 25$</option>
@@ -119,7 +120,9 @@
                             <option>STULING | 10$</option>
                         </optgroup>
                     </select>
+                    <br>
                     <input class="calendar" type="date" name="calendar">
+                    <br>
                     <select class="time1" name="time">
                         <optgroup label="Select a time">
                             <option>9 a.m</option>
@@ -135,17 +138,22 @@
                             <option>7 p.m</option>
                         </optgroup>
                     </select>
+                    <br>
                     <input class="write-a-name" type="text" placeholder="NAME" required>
+                    <br>
                     <input class="write-email" type="text" placeholder="EMAIL" required>
+                    <br>
                     <input class="write-phone" type="text" placeholder="PHONE" required>
+                    <br>
                     <input class="send" type="submit" value="SEND">
                 </form>
             </section>
             <section id="our-friends">
                 <div class="brush-holder">
-                    <img class="brush" src="img/barber-brush.png" alt="brush">
+                    <img class="brush" src="img/brave-brush.jpg" alt="brush">
                 </div>
                 <h2>• OUR FRIENDS •</h2>
+                <div class="friends">
                 <div>
                     <img class="jack" src="img/jack-daniels-logo.jpg" alt="jack">
                 </div>
@@ -155,6 +163,7 @@
                 <div>
                     <img class="crew" src="img/american-crew.png" alt="crew">
                 </div>
+                </div>
             </section>
             <section id="contact">
                 <div class="telephone-holder">
@@ -162,39 +171,29 @@
                 </div>
                 <h2>• CONTACT US •</h2>
                 <br>
+                <div class="contact-us">
                 <p class="adress">
-                    5806 North Broadway 4, <br>Chicago, IL 60660, USA
-                
-                
-                </p>
-                <p class="time">Everyday: 9AM-7PM</p>
+                    5806 North Broadway 4, <br>Chicago, IL 60660, USA <br> Everyday: 9AM-7PM</p>
                 <a class="phone" href="tel:+775-578-8759">+775-578-8759</a>
-                <div>
+                <div class="social">
                     <a href="www.instagram.com">
                         <img class="instagram" src="img/instagram.png" alt="instagram">
                     </a>
-                </div>
-                <div>
-                    <a href="facebook.com">
-                        <img class="facebook" src="img/youtube.png" alt="youtube">
-                    </a>
-                </div>
-                <div>
                     <a href="youtube.com">
-                        <img class="youtube" src="img/facebook.png" alt="facebook">
+                        <img class="youtube" src="img/youtube.png" alt="youtube">
                     </a>
-                </div>
+                    <a href="facebook.com">
+                        <img class="facebook" src="img/facebook.png" alt="facebook">
+                    </a>
+                    </div>
+                    </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.6066190033885!2d-87.66256374934333!3d41.987255066453855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd19d041bdba9%3A0x53e529f97ed386b7!2sFather+%26+Son+Barber+Shop!5e0!3m2!1suk!2sua!4v1540076819101" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.6066190033885!2d-87.66256374934333!3d41.987255066453855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd19d041bdba9%3A0x53e529f97ed386b7!2sFather+%26+Son+Barber+Shop!5e0!3m2!1suk!2sua!4v1540076819101" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </section>
             <footer>
-                <div>
-                    <img class="pole" src="img/barber-pole.jpg" alt="pole">
-                </div>
-                <p class="footer">© FATHER &SON BarberShop  2004 - 2018</p>
-                <div>
-                    <img class="pole" src="img/barber-pole.jpg" alt="pole">
+                <div class="black-footer">
+                    <p class="footer">© FATHER &SON BarberShop  2004 - 2018</p>
                 </div>
             </footer>
         </main>

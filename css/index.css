@@ -1,4 +1,3 @@
-
 body {
     margin: auto;
     max-width: 1400px;
@@ -28,7 +27,7 @@ header .nav-menu li a:hover {
     text-decoration: underline;
 }
 
- .logo {
+.logo {
     font-family: 'Bungee Inline', cursive;
     text-align: center;
     font-size: 50px;
@@ -157,42 +156,49 @@ main .second-list li {
 main .third-list li {
     list-style: none;
 }
+
 main .comb {
     width: 400px;
     height: 100px;
 }
+
 main .comb-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
+
 .form {
     display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 }
-.form  {
-        padding: 20px 0;
-        font-size: 11px
-    }
+
+.form {
+    padding: 20px 0;
+    font-size: 11px
+}
+
 .select-barber {
-        width: 170px;
-        
-        }
-.calendar { 
+    width: 170px;
+}
+
+.calendar {
     width: 164px;
     height: 15px;
-    
 }
+
 .time1 {
- width: 170px;   
+    width: 170px;
 }
+
 .write-a-name {
     width: 167px;
 }
+
 .send {
-    background-color: black; 
+    background-color: black;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -206,85 +212,101 @@ main .brush {
     width: 400px;
     height: 100px;
 }
+
 main .brush-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
+
 .friends {
     display: flex;
     justify-content: space-around;
 }
+
 .jack {
     width: 275px;
     height: 213px;
     display: grid;
     padding-top: 50px;
 }
+
 .uppercut {
     width: 320px;
     height: 320px;
-     display: grid;
+    display: grid;
     padding-left: 55px;
 }
+
 .crew {
     width: 344px;
     height: 344px;
 }
+
 .telephone {
     width: 400px;
     height: 100px;
 }
+
 .telephone-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
+
 .contact-us {
     display: flex;
     justify-content: space-around;
 }
+
 .adress {
     font-style: 'David+Libre', sans-serif;
     font-size: 20px;
 }
+
 .phone {
     font-size: 22px;
     color: black;
     padding-top: 10px;
-    
 }
+
 .instagram {
     width: 40px;
     height: 40px;
     padding-left: 10px;
 }
+
 .youtube {
     width: 55px;
     height: 40px;
     padding-left: 10px;
 }
+
 .facebook {
     width: 40px;
     height: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .social {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
+
 .map {
     width: 100%;
     height: 700px;
 }
+
 .black-footer {
-    display:flax;
-    justify-content:center;
+    display: flax;
+    justify-content: center;
     background-color: black;
     margin: 0;
     padding-top: 15px;
 }
+
 .footer {
     margin: 0;
     color: white;
@@ -293,37 +315,42 @@ main .brush-holder {
     padding-top: 10px;
 }
 
-@media (max-width:960px) {
-     .logo {
+@media (max-width: 960px) {
+    .logo {
         font-family: 'Bungee Inline', cursive;
         text-align: center;
         font-size: 30px;
         display: block;
         padding-top: 25px;
-}
+    }
+
     .friends {
-    display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .jack {
-    width: 275px;
-    height: 213px;
-    display: grid;
-    padding-top: 50px;
-}
+        width: 275px;
+        height: 213px;
+        display: grid;
+        padding-top: 50px;
+    }
+
     .uppercut {
-    width: 320px;
-    height: 320px;
-    display: grid;
-    padding-left: 0;
-}
+        width: 320px;
+        height: 320px;
+        display: grid;
+        padding-left: 0;
+    }
+
     .crew {
-    width: 344px;
-    height: 344px;
+        width: 344px;
+        height: 344px;
+    }
 }
-}
-@media (max-width:720px) {
+
+@media (max-width: 720px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -334,17 +361,20 @@ main .brush-holder {
         padding: 20px 0;
         font-size: 11px
     }
-     .logo {
+
+    .logo {
         font-family: 'Bungee Inline', cursive;
         text-align: center;
         font-size: 22px;
         display: block;
         padding-top: 25px;
     }
+
     main .mike {
         width: 100%;
         height: 500px;
     }
+
     main .tommy {
         width: 100%;
         height: 350px;
@@ -354,6 +384,7 @@ main .brush-holder {
         width: 100%;
         height: 370px;
     }
+
     .barber-pole1 {
         display: none;
     }
@@ -365,78 +396,91 @@ main .brush-holder {
     .barber-pole3 {
         display: none;
     }
+
     .friends {
-    display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .jack {
-    width: 275px;
-    height: 213px;
-    display: grid;
-    padding-top: 50px;
-}
+        width: 275px;
+        height: 213px;
+        display: grid;
+        padding-top: 50px;
+    }
+
     .uppercut {
-    width: 320px;
-    height: 320px;
-    display: grid;
-    padding-left: 0;
-}
+        width: 320px;
+        height: 320px;
+        display: grid;
+        padding-left: 0;
+    }
+
     .crew {
-    width: 344px;
-    height: 344px;
-    padding-left: 0px;
-}
-.telephone {
-    width: 400px;
-    height: 100px;
-}
-.telephone-holder {
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-}
-.contact-us {
-    display: flex;
-    justify-content: space-around;
-}
-.adress {
-    font-style: 'David+Libre', sans-serif;
-    font-size: 20px;
-}
-.phone {
-    font-size: 22px;
-    color: black;
-    padding-top: 10px;
-    
-}
-.instagram {
-    width: 40px;
-    height: 40px;
-    padding-left: 10px;
-}
-.youtube {
-    width: 55px;
-    height: 40px;
-    padding-left: 5px;
-}
-.facebook {
-    width: 40px;
-    height: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.social {
-    display: flex;
-    flex-direction: column;
-}
-.map {
-    width: 100%;
-    height: 400px;
-}
+        width: 344px;
+        height: 344px;
+        padding-left: 0px;
+    }
+
+    .telephone {
+        width: 400px;
+        height: 100px;
+    }
+
+    .telephone-holder {
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .contact-us {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .adress {
+        font-style: 'David+Libre', sans-serif;
+        font-size: 20px;
+    }
+
+    .phone {
+        font-size: 22px;
+        color: black;
+        padding-top: 10px;
+    }
+
+    .instagram {
+        width: 40px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .youtube {
+        width: 55px;
+        height: 40px;
+        padding-left: 5px;
+    }
+
+    .facebook {
+        width: 40px;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+        height: 400px;
+    }
 }
 
-@media (max-width:540px) {
+@media (max-width: 540px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -447,34 +491,41 @@ main .brush-holder {
         padding: 20px 0;
         font-size: 11px
     }
-     .logo {
+
+    .logo {
         font-family: 'Bungee Inline', cursive;
         text-align: center;
         font-size: 12px;
         display: block;
         padding-top: 25px;
     }
+
     main .scissors-holder {
-    display: none;
+        display: none;
     }
+
     main .moustache {
-        
         width: 100%;
         height: 75px;
     }
+
     main .razor {
         width: 100%;
         height: 75px;
     }
+
     main .servicesprices {
         padding-bottom: 20px;
     }
+
     main .name-of-barbers {
         font-size: 15px;
     }
+
     main h2 {
         font-size: 13px;
     }
+
     main .mike {
         width: 100%;
         height: 400px;
@@ -489,6 +540,7 @@ main .brush-holder {
         width: 100%;
         height: 270px;
     }
+
     .barber-pole1 {
         display: none;
     }
@@ -500,106 +552,122 @@ main .brush-holder {
     .barber-pole3 {
         display: none;
     }
-    
+
     .services li {
         font-size: 8px;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+
     .friends {
-    display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .jack {
-    width: 225px;
-    height: 163px;
-    display: grid;
-    padding-top: 50px;
-}
+        width: 225px;
+        height: 163px;
+        display: grid;
+        padding-top: 50px;
+    }
+
     .uppercut {
-    width: 270px;
-    height: 270px;
-    display: grid;
-    padding-left: 0;
-}
+        width: 270px;
+        height: 270px;
+        display: grid;
+        padding-left: 0;
+    }
+
     .crew {
-    width: 294px;
-    height: 294px;
+        width: 294px;
+        height: 294px;
+    }
+
+    .telephone {
+        width: 400px;
+        height: 100px;
+    }
+
+    .telephone-holder {
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .contact-us {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .adress {
+        font-style: 'David+Libre', sans-serif;
+        font-size: 15px;
+    }
+
+    .phone {
+        font-size: 18px;
+        color: black;
+        padding-top: 10px;
+    }
+
+    .instagram {
+        width: 30px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    .youtube {
+        width: 45px;
+        height: 30px;
+        padding-left: 5px;
+    }
+
+    .facebook {
+        width: 30px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+    }
+
+    .black-footer {
+        display: flax;
+        justify-content: center;
+        background-color: black;
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    .footer {
+        margin: 0;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
 }
-.telephone {
-    width: 400px;
-    height: 100px;
-}
-.telephone-holder {
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-}
-.contact-us {
-    display: flex;
-    justify-content: space-around;
-}
-.adress {
-    font-style: 'David+Libre', sans-serif;
-    font-size: 15px;
-}
-.phone {
-    font-size: 18px;
-    color: black;
-    padding-top: 10px;
-    
-}
-.instagram {
-    width: 30px;
-    height: 30px;
-    padding-left: 10px;
-}
-.youtube {
-    width: 45px;
-    height: 30px;
-    padding-left: 5px;
-}
-.facebook {
-    width: 30px;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.map {
-    width: 100%;
-    height: 300px;
-}
-.black-footer {
-    display:flax;
-    justify-content:center;
-    background-color: black;
-    margin: 0;
-    padding-top: 5px;
-}
-.footer {
-    margin: 0;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-}
-    
-}
-@media (max-width:400px) {
-     .logo {
+
+@media (max-width: 400px) {
+    .logo {
         font-family: 'Bungee Inline', cursive;
         text-align: center;
         font-size: 10px;
         display: block;
         padding-top: 25px;
     }
+
     .services li {
         font-size: 6px;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+
     main .mike {
         width: 100%;
         height: 300px;
@@ -614,20 +682,23 @@ main .brush-holder {
         width: 100%;
         height: 240px;
     }
+
     .adress {
-    font-style: 'David+Libre', sans-serif;
-    font-size: 13px;
+        font-style: 'David+Libre', sans-serif;
+        font-size: 13px;
+    }
+
+    .phone {
+        font-size: 15px;
+        color: black;
+        padding-top: 10px;
+    }
+
+    .footer {
+        margin: 0;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+    }
 }
-.phone {
-    font-size: 15px;
-    color: black;
-    padding-top: 10px;
-    
-}
-.footer {
-    margin: 0;
-    color: white;
-    font-size: 11px;
-    text-align: center;
-}
-}
+

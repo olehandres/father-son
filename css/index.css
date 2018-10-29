@@ -3,7 +3,7 @@ body {
     max-width: 1400px;
 }
 
-header .nav-menu {
+ .nav-menu {
     margin: 0;
     padding: 20px 0;
     width: 100%;
@@ -12,18 +12,18 @@ header .nav-menu {
     justify-content: space-around;
 }
 
-header .nav-menu li {
+ .nav-menu li {
     display: inline;
 }
 
-header .nav-menu li a {
+ .nav-menu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-family: 'Amethysta', sans-serif;
 }
 
-header .nav-menu li a:hover {
+ .nav-menu li a:hover {
     text-decoration: underline;
 }
 
@@ -35,26 +35,26 @@ header .nav-menu li a:hover {
     padding-top: 50px;
 }
 
-main .scissors {
+ .scissors {
     width: 400px;
     height: 100px;
 }
 
-main .scissors-holder {
+ .scissors-holder {
     display: flex;
     justify-content: center;
     padding-top: 110px;
 }
 
-main .barber {
+ .barber {
     width: 100%;
 }
 
-main .barber {
+ .barber {
     display: block;
 }
 
-main .moustache {
+ .moustache {
     width: 400px;
     height: 100px;
 }
@@ -64,7 +64,7 @@ main .moustache {
     justify-content: center;
 }
 
-main h2 {
+ h2 {
     text-align: center;
     font-family: 'Abril+Fatface', sans-serif;
     display: block;
@@ -72,7 +72,7 @@ main h2 {
     margin-right: 15px;
 }
 
-main .name-of-barbers {
+ .name-of-barbers {
     text-align: center;
     font-family: 'Abril+Fatface', sans-serif;
     font-size: 20px;
@@ -81,7 +81,7 @@ main .name-of-barbers {
     margin-bottom: 2px;
 }
 
-main .position {
+.position {
     text-align: center;
     font-family: 'Abril+Fatface', sans-serif;
     font-size: 12px;
@@ -89,80 +89,79 @@ main .position {
     margin: 5px auto;
 }
 
-main .mikebarber {
+ .mikebarber {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-main .barber-pole1 {
+ .barber-pole1 {
     width: 160px;
     height: 121px;
 }
 
-main .barber-pole2 {
+ .barber-pole2 {
     width: 160px;
     height: 121px;
 }
 
-main .barber-pole3 {
+ .barber-pole3 {
     width: 160px;
     height: 121px;
 }
 
-main .mike {
+ .mike {
     width: 663px;
     height: 663px;
 }
 
-main .tommy {
+ .tommy {
     width: 668px;
     height: 428px;
 }
 
-main .johnny {
+ .johnny {
     width: 668px;
     height: 428px;
 }
 
-main .razor {
+ .razor {
     width: 400px;
     height: 100px;
 }
 
-main .razor-holder {
+ .razor-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
 
-main .services {
+ .services {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 10px;
     color: white;
     background-color: black;
 }
 
-main .first-list li {
+ .first-list li {
     list-style: none;
 }
 
-main .second-list li {
+ .second-list li {
     list-style: none;
 }
 
-main .third-list li {
+ .third-list li {
     list-style: none;
 }
 
-main .comb {
+ .comb {
     width: 400px;
     height: 100px;
 }
 
-main .comb-holder {
+ .comb-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -208,12 +207,12 @@ main .comb-holder {
     font-size: 16px;
 }
 
-main .brush {
+ .brush {
     width: 400px;
     height: 100px;
 }
 
-main .brush-holder {
+ .brush-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -422,7 +421,14 @@ main .brush-holder {
     .barber-pole3 {
         display: none;
     }
-
+    .comb {
+    width: 100%;
+    height: 100px;
+    }
+    main .brush {
+    width: 100%;
+    height: 100px;
+    }
     .friends {
         display: flex;
         flex-direction: column;

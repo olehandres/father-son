@@ -3,7 +3,7 @@ body {
     max-width: 1400px;
 }
 
- .nav-menu {
+.nav-menu {
     margin: 0;
     padding: 20px 0;
     width: 100%;
@@ -12,18 +12,18 @@ body {
     justify-content: space-around;
 }
 
- .nav-menu li {
+.nav-menu li {
     display: inline;
 }
 
- .nav-menu li a {
+.nav-menu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-family: 'Amethysta', sans-serif;
 }
 
- .nav-menu li a:hover {
+.nav-menu li a:hover {
     text-decoration: underline;
 }
 
@@ -35,26 +35,26 @@ body {
     padding-top: 50px;
 }
 
- .scissors {
+.scissors {
     width: 400px;
     height: 100px;
 }
 
- .scissors-holder {
+.scissors-holder {
     display: flex;
     justify-content: center;
     padding-top: 110px;
 }
 
- .barber {
+.barber {
     width: 100%;
 }
 
- .barber {
+.barber {
     display: block;
 }
 
- .moustache {
+.moustache {
     width: 400px;
     height: 100px;
 }
@@ -64,7 +64,7 @@ body {
     justify-content: center;
 }
 
- h2 {
+h2 {
     text-align: center;
     font-family: 'Abril+Fatface', sans-serif;
     display: block;
@@ -72,7 +72,7 @@ body {
     margin-right: 15px;
 }
 
- .name-of-barbers {
+.name-of-barbers {
     text-align: center;
     font-family: 'Abril+Fatface', sans-serif;
     font-size: 20px;
@@ -89,54 +89,54 @@ body {
     margin: 5px auto;
 }
 
- .mikebarber {
+.mikebarber {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
- .barber-pole1 {
+.barber-pole1 {
     width: 160px;
     height: 121px;
 }
 
- .barber-pole2 {
+.barber-pole2 {
     width: 160px;
     height: 121px;
 }
 
- .barber-pole3 {
+.barber-pole3 {
     width: 160px;
     height: 121px;
 }
 
- .mike {
+.mike {
     width: 663px;
     height: 663px;
 }
 
- .tommy {
+.tommy {
     width: 668px;
     height: 428px;
 }
 
- .johnny {
+.johnny {
     width: 668px;
     height: 428px;
 }
 
- .razor {
+.razor {
     width: 400px;
     height: 100px;
 }
 
- .razor-holder {
+.razor-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
 
- .services {
+.services {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -144,24 +144,24 @@ body {
     background-color: black;
 }
 
- .first-list li {
+.first-list li {
     list-style: none;
 }
 
- .second-list li {
+.second-list li {
     list-style: none;
 }
 
- .third-list li {
+.third-list li {
     list-style: none;
 }
 
- .comb {
+.comb {
     width: 400px;
     height: 100px;
 }
 
- .comb-holder {
+.comb-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -207,12 +207,12 @@ body {
     font-size: 16px;
 }
 
- .brush {
+.brush {
     width: 400px;
     height: 100px;
 }
 
- .brush-holder {
+.brush-holder {
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -241,7 +241,6 @@ body {
     width: 344px;
     height: 344px;
 }
-
 
 .telephone {
     width: 400px;
@@ -323,7 +322,8 @@ body {
         display: block;
         padding-top: 25px;
     }
-     main .mike {
+
+    main .mike {
         width: 100%;
         height: 700px;
     }
@@ -423,14 +423,17 @@ body {
     .barber-pole3 {
         display: none;
     }
+
     .comb {
-    width: 100%;
-    height: 100px;
+        width: 100%;
+        height: 100px;
     }
+
     .brush {
-    width: 100%;
-    height: 100px;
+        width: 100%;
+        height: 100px;
     }
+
     .friends {
         display: flex;
         flex-direction: column;
@@ -730,4 +733,3 @@ body {
         text-align: center;
     }
 }
-

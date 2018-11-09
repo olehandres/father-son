@@ -397,6 +397,21 @@ h2 {
         padding-top: 25px;
     }
 
+    .scissors {
+        width: 400px;
+        height: 100px;
+    }
+
+    .moustache {
+        width: 400px;
+        height: 100px;
+    }
+
+    .razor {
+        width: 400px;
+        height: 100px;
+    }
+
     main .mike {
         width: 100%;
         height: 500px;
@@ -425,12 +440,12 @@ h2 {
     }
 
     .comb {
-        width: 100%;
+        width: 400px;
         height: 100px;
     }
 
     .brush {
-        width: 100%;
+        width: 400px;
         height: 100px;
     }
 
@@ -461,7 +476,7 @@ h2 {
     }
 
     .telephone {
-        width: 100%;
+        width: 400px;
         height: 100px;
     }
 
@@ -517,6 +532,12 @@ h2 {
     }
 }
 
+@media (max-width: 657px) {
+    #player {
+        display: none;
+    }
+}
+
 @media (max-width: 540px) {
     .nav-menu {
         display: flex;
@@ -542,12 +563,12 @@ h2 {
     }
 
     main .moustache {
-        width: 100%;
+        width: 400px;
         height: 75px;
     }
 
     main .razor {
-        width: 100%;
+        width: 400px;
         height: 75px;
     }
 
